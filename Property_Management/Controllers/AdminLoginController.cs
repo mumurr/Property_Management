@@ -29,7 +29,7 @@ namespace Property_Management.Controllers
             else
             {
                 var data = new { token = "abc" };
-                return Ok(new { message = "成功",code=200,
+                return Ok(new { message = "成",code=200,
                     token = "abc"
                 });
             }
