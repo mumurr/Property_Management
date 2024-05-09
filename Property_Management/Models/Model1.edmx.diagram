@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a9b0affc001f40139b00658f9ddf1c0d" Name="Diagram1">
+        <EntityTypeShape EntityType="WuyeProjectModel.w_admin" Width="1.5" PointX="5.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_announcement" Width="1.5" PointX="7.5" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_building" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_complaint" Width="1.5" PointX="7.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_device" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_house" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_installation" Width="1.5" PointX="3" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_packing" Width="1.5" PointX="9.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_property_user" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_repair" Width="1.5" PointX="10.5" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_room" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_room_info" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_system_params" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_user" Width="1.5" PointX="7.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WuyeProjectModel.w_user_paymoney" Width="1.5" PointX="7.5" PointY="15.875" IsExpanded="true" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_announcement_w_admin" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_user_paymoney_w_admin" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_building_w_building" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_house_w_building" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_repair_w_building" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_user_w_building" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_complaint_w_house" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_house_w_system_params" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_house_w_system_params1" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_house_w_system_params2" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_house_w_system_params3" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_house_w_system_params4" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_house_w_system_params5" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_repair_w_house" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_user_paymoney_w_house" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_user_w_house" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_installation_w_installation" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_packing_w_packing" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_repair_w_system_params" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_repair_w_user" ManuallyRouted="false" />
+        <AssociationConnector Association="WuyeProjectModel.FK_w_user_w_system_params" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
