@@ -143,10 +143,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AddFacilityController.cs" />
-    <Compile Include="Controllers\AdminLoginController.cs" />
+    <Compile Include="Controllers\FacilityController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RoomInfoController.cs" />
-    <Compile Include="Controllers\UpdateFacilityController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
